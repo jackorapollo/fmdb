@@ -5,7 +5,7 @@
 
 #import <Foundation/Foundation.h>
 #import "FMDB.h"
-#import <sqlite3.h>
+#include "sqlite3.h"
 
 #define FMDBQuickCheck(SomeBool) { if (!(SomeBool)) { NSLog(@"Failure on line %d", __LINE__); abort(); } }
 

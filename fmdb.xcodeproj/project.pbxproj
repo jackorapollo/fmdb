@@ -15,6 +15,17 @@
 		40A146031BE575E400E5D35E /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CC50F2CC0DF9183600E4AAAE /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40A146041BE575EB00E5D35E /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9E4EB713B31188005F9210 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40A146051BE6999800E5D35E /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 8314AF3218CD73D600EC0E25 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		524E90421DB56E8D0003D8BF /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 524E90401DB56E8D0003D8BF /* sqlite3.c */; };
+		524E90431DB56E8D0003D8BF /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 524E90401DB56E8D0003D8BF /* sqlite3.c */; };
+		524E90441DB56E8D0003D8BF /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 524E90401DB56E8D0003D8BF /* sqlite3.c */; };
+		524E90451DB56E8D0003D8BF /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 524E90401DB56E8D0003D8BF /* sqlite3.c */; };
+		524E90461DB56E8D0003D8BF /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 524E90401DB56E8D0003D8BF /* sqlite3.c */; };
+		524E90471DB56E8D0003D8BF /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 524E90411DB56E8D0003D8BF /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		524E90481DB56E8D0003D8BF /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 524E90411DB56E8D0003D8BF /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		524E90491DB56E8D0003D8BF /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 524E90411DB56E8D0003D8BF /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		524E904A1DB56E8D0003D8BF /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 524E90411DB56E8D0003D8BF /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		524E904C1DB56EFC0003D8BF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524E904B1DB56EFC0003D8BF /* Security.framework */; };
+		524E904E1DB56F030003D8BF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524E904D1DB56F030003D8BF /* Security.framework */; };
 		621721B21892BFE30006691F /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC24EBB0A13E34D00A6D3E3 /* FMDatabase.m */; };
 		621721B31892BFE30006691F /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC24EC00A13E34D00A6D3E3 /* FMResultSet.m */; };
 		621721B41892BFE30006691F /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CC47A00E148581E9002CCDAB /* FMDatabaseQueue.m */; };
@@ -45,8 +56,6 @@
 		83C73F261C326BD600FFC730 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = CC47A00D148581E9002CCDAB /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83C73F271C326BD600FFC730 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CC50F2CC0DF9183600E4AAAE /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83C73F281C326BD600FFC730 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9E4EB713B31188005F9210 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83C73F2A1C326CE800FFC730 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C73F291C326CE800FFC730 /* libsqlite3.tbd */; };
-		83C73F2C1C326CF400FFC730 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C73F2B1C326CF400FFC730 /* libsqlite3.tbd */; };
 		83C73F2F1C326D2F00FFC730 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C73F0B1C326ADA00FFC730 /* FMDB.framework */; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 		8DD76F9F0486AA7600D96B5E /* fmdb.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* fmdb.1 */; };
@@ -71,7 +80,6 @@
 		CCA66A2F19C0CB1900EFDAC1 /* FMTokenizers.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA66A2B19C0CB1900EFDAC1 /* FMTokenizers.m */; };
 		CCA66A3019C0CB1900EFDAC1 /* FMTokenizers.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA66A2B19C0CB1900EFDAC1 /* FMTokenizers.m */; };
 		CCBE26C113B3BA8C006F6C37 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBE26C013B3BA8C006F6C37 /* AppKit.framework */; };
-		CCBEBDAC0DF5DE1A003DDD08 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBEBDAB0DF5DE1A003DDD08 /* libsqlite3.dylib */; };
 		CCC24EC20A13E34D00A6D3E3 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC24EBB0A13E34D00A6D3E3 /* FMDatabase.m */; };
 		CCC24EC50A13E34D00A6D3E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC24EBE0A13E34D00A6D3E3 /* main.m */; };
 		CCC24EC70A13E34D00A6D3E3 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC24EC00A13E34D00A6D3E3 /* FMResultSet.m */; };
@@ -119,6 +127,10 @@
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32A70AAB03705E1F00C91783 /* fmdb_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmdb_Prefix.pch; path = src/sample/fmdb_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		3354379B19E71096005661F3 /* FMResultSetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSetTests.m; sourceTree = "<group>"; };
+		524E90401DB56E8D0003D8BF /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		524E90411DB56E8D0003D8BF /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		524E904B1DB56EFC0003D8BF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		524E904D1DB56F030003D8BF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		6290CBB5188FE836009790F8 /* libFMDB-IOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFMDB-IOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6290CBB6188FE836009790F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6290CBC6188FE837009790F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -178,6 +190,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524E904C1DB56EFC0003D8BF /* Security.framework in Frameworks */,
 				6290CBB7188FE836009790F8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,7 +199,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83C73F2C1C326CF400FFC730 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +206,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83C73F2A1C326CE800FFC730 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +214,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
-				CCBEBDAC0DF5DE1A003DDD08 /* libsqlite3.dylib in Frameworks */,
 				CCBE26C113B3BA8C006F6C37 /* AppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +231,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524E904E1DB56F030003D8BF /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +255,8 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				524E90401DB56E8D0003D8BF /* sqlite3.c */,
+				524E90411DB56E8D0003D8BF /* sqlite3.h */,
 				8314AF3018CD737D00EC0E25 /* fmdb */,
 				CC7CE42518F5C02E00938264 /* optional extras */,
 				8314AF3118CD739500EC0E25 /* sample */,
@@ -335,6 +348,8 @@
 		BF5D041718416BB2008C5AA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				524E904D1DB56F030003D8BF /* Security.framework */,
+				524E904B1DB56EFC0003D8BF /* Security.framework */,
 				83C73F2B1C326CF400FFC730 /* libsqlite3.tbd */,
 				83C73F291C326CE800FFC730 /* libsqlite3.tbd */,
 				BF5D041818416BB2008C5AA9 /* XCTest.framework */,
@@ -405,6 +420,7 @@
 				40A146041BE575EB00E5D35E /* FMDatabasePool.h in Headers */,
 				40A146051BE6999800E5D35E /* FMDB.h in Headers */,
 				40A146031BE575E400E5D35E /* FMDatabaseAdditions.h in Headers */,
+				524E90481DB56E8D0003D8BF /* sqlite3.h in Headers */,
 				40A146021BE575DD00E5D35E /* FMDatabaseQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +433,7 @@
 				83C73F191C326BAB00FFC730 /* FMDatabase.h in Headers */,
 				83C73F1A1C326BAB00FFC730 /* FMResultSet.h in Headers */,
 				83C73F1B1C326BAB00FFC730 /* FMDatabaseQueue.h in Headers */,
+				524E90491DB56E8D0003D8BF /* sqlite3.h in Headers */,
 				83C73F1C1C326BAB00FFC730 /* FMDatabaseAdditions.h in Headers */,
 				83C73F1D1C326BAB00FFC730 /* FMDatabasePool.h in Headers */,
 			);
@@ -430,6 +447,7 @@
 				83C73F241C326BD600FFC730 /* FMDatabase.h in Headers */,
 				83C73F251C326BD600FFC730 /* FMResultSet.h in Headers */,
 				83C73F261C326BD600FFC730 /* FMDatabaseQueue.h in Headers */,
+				524E904A1DB56E8D0003D8BF /* sqlite3.h in Headers */,
 				83C73F271C326BD600FFC730 /* FMDatabaseAdditions.h in Headers */,
 				83C73F281C326BD600FFC730 /* FMDatabasePool.h in Headers */,
 			);
@@ -442,6 +460,7 @@
 				EE42910612B42FC30088BD94 /* FMDatabaseAdditions.h in Headers */,
 				EE42910912B42FD00088BD94 /* FMResultSet.h in Headers */,
 				40A145FE1BE5759400E5D35E /* FMDatabase.h in Headers */,
+				524E90471DB56E8D0003D8BF /* sqlite3.h in Headers */,
 				8314AF3318CD73D600EC0E25 /* FMDB.h in Headers */,
 				CC9E4EBA13B31188005F9210 /* FMDatabasePool.h in Headers */,
 				CC47A00F148581E9002CCDAB /* FMDatabaseQueue.h in Headers */,
@@ -633,6 +652,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				621721B31892BFE30006691F /* FMResultSet.m in Sources */,
+				524E90441DB56E8D0003D8BF /* sqlite3.c in Sources */,
 				621721B21892BFE30006691F /* FMDatabase.m in Sources */,
 				621721B61892BFE30006691F /* FMDatabasePool.m in Sources */,
 				621721B41892BFE30006691F /* FMDatabaseQueue.m in Sources */,
@@ -645,6 +665,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83C73F131C326B9400FFC730 /* FMDatabase.m in Sources */,
+				524E90451DB56E8D0003D8BF /* sqlite3.c in Sources */,
 				83C73F141C326B9400FFC730 /* FMResultSet.m in Sources */,
 				83C73F151C326B9400FFC730 /* FMDatabaseQueue.m in Sources */,
 				83C73F161C326B9400FFC730 /* FMDatabaseAdditions.m in Sources */,
@@ -657,6 +678,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83C73F1E1C326BC100FFC730 /* FMDatabase.m in Sources */,
+				524E90461DB56E8D0003D8BF /* sqlite3.c in Sources */,
 				83C73F1F1C326BC100FFC730 /* FMResultSet.m in Sources */,
 				83C73F201C326BC100FFC730 /* FMDatabaseQueue.m in Sources */,
 				83C73F211C326BC100FFC730 /* FMDatabaseAdditions.m in Sources */,
@@ -677,6 +699,7 @@
 				CC9E4EB913B31188005F9210 /* FMDatabasePool.m in Sources */,
 				CC47A010148581E9002CCDAB /* FMDatabaseQueue.m in Sources */,
 				CCA66A2D19C0CB1900EFDAC1 /* FMDatabase+FTS3.m in Sources */,
+				524E90421DB56E8D0003D8BF /* sqlite3.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,6 +726,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE42910812B42FCC0088BD94 /* FMDatabase.m in Sources */,
+				524E90431DB56E8D0003D8BF /* sqlite3.c in Sources */,
 				EE42910512B42FBC0088BD94 /* FMDatabaseAdditions.m in Sources */,
 				EE42910A12B42FD20088BD94 /* FMResultSet.m in Sources */,
 				CC9E4EBB13B31188005F9210 /* FMDatabasePool.m in Sources */,
@@ -745,6 +769,13 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = src/sample/fmdb_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"HAVE_USLEEP=1",
+					"SQLITE_HAS_CODEC=1",
+					"SQLITE_TEMP_STORE=2",
+					"SQLITE_THREADSAFE=1",
+					"SQLCIPHER_CRYPTO_CC=1",
+				);
 				GCC_WARN_SHADOW = YES;
 				INSTALL_PATH = "$(HOME)/bin";
 				LIBRARY_SEARCH_PATHS = "$(LIBRARY_SEARCH_PATHS)";
@@ -764,6 +795,13 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = src/sample/fmdb_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"HAVE_USLEEP=1",
+					"SQLITE_HAS_CODEC=1",
+					"SQLITE_TEMP_STORE=2",
+					"SQLITE_THREADSAFE=1",
+					"SQLCIPHER_CRYPTO_CC=1",
+				);
 				GCC_WARN_SHADOW = YES;
 				INSTALL_PATH = "$(HOME)/bin";
 				LIBRARY_SEARCH_PATHS = "$(LIBRARY_SEARCH_PATHS)";
@@ -785,6 +823,13 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					SQLITE_THREADSAFE,
+					"SQLITE_TEMP_STORE=2",
+					SQLITE_HAS_CODEC,
+					"DEBUG=1",
+					SQLCIPHER_CRYPTO_CC,
+				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -902,10 +947,6 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = src/fmdb/Info.plist;
